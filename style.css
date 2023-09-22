@@ -1,0 +1,109 @@
+.space-between{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.bucket{
+    max-width: 50px;
+    max-height: 20px;
+    padding-top: 14px;
+}
+.logo{
+    max-width: 100px;
+    max-height: 120px;
+    padding-top: 14px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,150px);
+    grid-template-rows:auto;
+    grid-gap: 5px;
+    padding: 5px;
+    margin: 7%;
+}
+.books{
+    max-width: 200px;
+    max-height: 200px;
+}
+h3{
+    font-size: small;
+}
+h4{
+    font-size: smaller;
+    color: rgb(167, 164, 164);
+}
+p{
+    font-weight: bold;
+}
+.games{
+    max-width: 200px;
+    max-height: 200px;
+}
+.crafts{
+    max-width: 200px;
+    max-height: 200px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: 7%;
+}
+.img{
+    max-width: 90px;
+    max-height: 80px;
+    border: 1px solid black;
+    border-radius: 80%;
+    padding: 10px;
+}
+.bottom{
+    color: rgb(196, 198, 199);
+}
+.name{
+    text-align: right;
+}
+header {
+    background-image: url('https://raw.githubusercontent.com/Kalvium-Program/kidz-world-html-boilerplate/main/assets/kw-background.png') ;
+    background-size: 950px;
+    color: white;
+    padding: 30px;
+    margin: 5%;
+}
+.two{
+    display: flex;
+    justify-content:space-around ;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(59, 118, 237) ;
+}
+.cart-icon{
+    max-width: 50px;
+    max-height: 20px;
+    align-self: center;
+}
+.contain{
+    padding: 15px;
+    margin: 7%;
+}
+.cont{
+    padding: 15px;
+    margin: 7%;
+}
+body{
+    padding: 15px;
+    margin: 15px;
+}
+@media only screen and (max-width: 600px) {
+    header {
+      height: 200px;
+      font-size: 15px;
+      text-align: start;
+    }
+}
